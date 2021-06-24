@@ -58,7 +58,7 @@ static uint8_t tx_byte;
 static uint8_t tx_bit;
 static volatile uint8_t tx_buffer_head;
 static volatile uint8_t tx_buffer_tail;
-#define TX_BUFFER_SIZE 68
+#define TX_BUFFER_SIZE 128
 static volatile uint8_t tx_buffer[TX_BUFFER_SIZE];
 
 
